@@ -34,7 +34,7 @@ public class Persona {
     }
     
     public long getCedula() {
-        return cedula;
+        return personas.cedula;
     }
 
     public String getNombre() {
