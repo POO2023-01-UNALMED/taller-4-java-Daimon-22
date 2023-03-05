@@ -21,7 +21,7 @@ public class Grupo {
         
     }
 
-    public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura) {
+    public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo) {
         this.estudiantes = estudiantes;
         this.profesor = profesor;
         this.asignatura = asignatura;
