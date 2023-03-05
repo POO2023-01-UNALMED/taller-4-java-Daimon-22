@@ -44,10 +44,6 @@ public class Asignatura {
     public void cambiarDatos(String nombre) {
         this.nombre = nombre;
     }
-
-    public void setCodigoInterno(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
-    }
     
     public void setCodigoInterno(double codigoInterno) {
         this.codigoInterno = (int) codigoInterno;
